@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #1A2E55;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #E6F0FF;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.nav-links li {
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1A2E55;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Let’s Chat CTA in Navbar */
+.cta {
+    margin-left: auto;
+    text-decoration: none;
+    color: #1A2E55;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+    height: 90vh;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hand-emoji {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.larger-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Scroll Down */
+.scroll-down {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Portfolio Section */
+.latest-works {
+    text-align: center;
+    padding: 50px;
+}
+
+.work-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1A2E55;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e5efff; /* Light blue background */
+}
+
+.footer-nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav-links li a {
+    text-decoration: none;
+    color: #1e3a8a; /* Dark blue text */
+    font-weight: bold;
+}
+
+.footer-nav p {
+    margin: 0;
+    color: #1e3a8a; /* Dark blue text */
+    font-weight: bold;
+}
